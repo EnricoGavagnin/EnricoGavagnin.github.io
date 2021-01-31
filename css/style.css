@@ -383,6 +383,7 @@ a.active {
     display: block;
     width: 100%;
     height: 0;
+    
 
     background-size: 100%;
     padding-bottom: 100%;
@@ -391,17 +392,13 @@ a.active {
 }
 
 .back_research2{
-    background-image: url("../img/portfolio/02.jpeg");
+    background-image: url("../img/portfolio/ant_cover.png");
     display: block;
     width: 100%;
-    height: 0;
-
-    background-size: 100%;
-    padding-bottom: 100%;
-    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: repeat;
    
 }
-
 .back_research3{
     background-image: url("../img/portfolio/03.png");
     display: block;
@@ -409,7 +406,7 @@ a.active {
     height: 0;
 
     background-size: 100%;
-    padding-bottom: 100%;
+    padding-bottom: 5rem;
     background-attachment: fixed;
    
 }
@@ -418,11 +415,18 @@ a.active {
     background-color: rgba(255, 255, 255, 0.7);
     display: block;
     width: 100%;
-    height: 0;
 
     background-size: 100%;
-    padding-bottom: 100%;
+    padding-bottom: 5rem;
     background-attachment: fixed;
+}
+
+.img-copyright {
+   color: gray;
+   text-align: right;
+   font-size: 1.1rem;
+   font-style: italic;
+   padding-right: 2rem;
 }
 
 .transp_layer3{
@@ -438,13 +442,17 @@ a.active {
 
 .transp_layer2{
     background-color: rgba(255, 255, 255, 0.5);
+    
 
 }
 
 
-img.research_open{
+img.research_open, .video-ants {
     align-items: center;
+    width: 75%;
+    margin: 4rem auto;
 }
+
 
 h7{
     writing-mode: vertical-rl;
