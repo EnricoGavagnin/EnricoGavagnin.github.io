@@ -338,7 +338,6 @@ a.active {
     display: table;
     height: 100vh;
     color: black;
-    tra
 }
 
 
@@ -403,7 +402,16 @@ a.active {
     background-image: url("../img/portfolio/03.png");
     display: block;
     width: 100%;
-    height: 0;
+    background-size: 100%;
+    padding-bottom: 5rem;
+    background-attachment: fixed;
+   
+}
+
+.back_others{
+    background-image: url("../img/portfolio/wavefont_bc.png");
+    display: block;
+    width: 100%;
 
     background-size: 100%;
     padding-bottom: 5rem;
@@ -1052,6 +1060,26 @@ fieldset {
     color: #425BB5;
 }
 
+/* Others
+==================================================*/
+
+.figure_withcaption {
+    margin: 4rem auto;
+    width: 75%;
+}
+
+.container_flex {
+    display: flex;
+    justify-content: center;
+}
+
+.container_flex > p{
+    text-align: justify;
+}
+
+.padding_3rem {
+    padding: 3rem;
+}
 
 /* Responsive media queries
 ==================================================*/
